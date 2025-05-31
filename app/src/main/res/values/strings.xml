@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="recipeName">Recipe Name</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="recipeMethodTitle">Method</string>
+    <string name="recipe">Recipe instructions go here</string>
+
+
+</resources>
