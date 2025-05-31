@@ -51,6 +51,11 @@ public class MainActivity extends AppCompatActivity {
             recipes1.add(new Recipes("Tajin", "1 lb chicken or lamb\n1 onion, sliced\n2 preserved lemons\n1 cup olives\n1 tsp ginger\n1 tsp saffron\nSalt & pepper\nOlive oil", "Method", "In a tajine or heavy pot, brown meat with onions and spices. Add preserved lemons and olives. Cover and cook slowly until meat is tender. Serve hot with bread.", R.drawable.tajin));
 
             recipes1.add(new Recipes("Rechta", "2 cups flour\n3 eggs\n1 tsp salt\n1 lb chicken\n1 onion, chopped\n2 tsp ras el hanout\nChickpeas\nBroth", "Method", "Make pasta dough with flour, eggs and salt. Roll thin and cut into strips. Cook chicken with onions and spices. Add chickpeas and broth. Add pasta and cook until tender.", R.drawable.rechta));
+            recipes1.add(new Recipes("Mhadjeb", "2 cups couscous\n1 lb lamb or chicken\n2 carrots, chopped\n2 zucchini, chopped\n1 onion, chopped\n1/4 cup chickpeas\n1 tsp ras el hanout\nSalt & pepper\nBroth", "Method", "Steam couscous according to package instructions. In a large pot, brown meat with onions. Add vegetables, chickpeas, spices and broth. Simmer until vegetables are tender. Serve couscous topped with stew.", R.drawable.couscous));
+
+            recipes1.add(new Recipes("Dolma", "1 lb chicken or lamb\n1 onion, sliced\n2 preserved lemons\n1 cup olives\n1 tsp ginger\n1 tsp saffron\nSalt & pepper\nOlive oil", "Method", "In a tajine or heavy pot, brown meat with onions and spices. Add preserved lemons and olives. Cover and cook slowly until meat is tender. Serve hot with bread.", R.drawable.tajin));
+
+            recipes1.add(new Recipes("Lham lhlou", "2 cups flour\n3 eggs\n1 tsp salt\n1 lb chicken\n1 onion, chopped\n2 tsp ras el hanout\nChickpeas\nBroth", "Method", "Make pasta dough with flour, eggs and salt. Roll thin and cut into strips. Cook chicken with onions and spices. Add chickpeas and broth. Add pasta and cook until tender.", R.drawable.rechta));
 
         } else if (category.equals("Breads")) {  // Fixed case sensitivity
             // Breads recipes
@@ -59,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
             recipes1.add(new Recipes("Khobbz el dar", "4 cups flour\n1 1/2 cups warm water\n2 tsp yeast\n1 tsp salt\n1 tsp sugar\n2 tbsp oil", "Method", "Mix yeast with warm water and sugar. Combine flour and salt. Add yeast mixture and oil. Knead well. Let rise for 1 hour. Shape and bake at 425°F for 25-30 minutes until golden.", R.drawable.khobz));
 
             recipes1.add(new Recipes("Matlou3", "2 cups flour\n1 cup warm water\n1 tsp yeast\n1 tsp salt\n1 tbsp olive oil\nSesame seeds", "Method", "Mix yeast with warm water. Combine flour and salt. Add yeast mixture and oil. Knead until smooth. Let rise for 45 minutes. Shape into flat rounds, sprinkle with sesame seeds. Bake at 450°F for 15-20 minutes.", R.drawable.matlou3));
+            recipes1.add(new Recipes("Kesra", "3 cups semolina flour\n1 cup warm water\n1 tsp salt\n1 tsp sugar\n2 tsp active dry yeast\n2 tbsp olive oil", "Method", "Mix yeast with warm water and sugar. Let foam for 5 minutes. Mix flour and salt in a bowl. Add yeast mixture and oil. Knead until smooth. Let rise for 1 hour. Shape into rounds and bake at 400°F for 20-25 minutes.", R.drawable.kesra));
+            recipes1.add(new Recipes("Bariouch", "4 cups flour\n1 1/2 cups warm water\n2 tsp yeast\n1 tsp salt\n1 tsp sugar\n2 tbsp oil", "Method", "Mix yeast with warm water and sugar. Combine flour and salt. Add yeast mixture and oil. Knead well. Let rise for 1 hour. Shape and bake at 425°F for 25-30 minutes until golden.", R.drawable.khobz));
+
+            recipes1.add(new Recipes("Garlic Bread", "4 cups flour\n1 1/2 cups warm water\n2 tsp yeast\n1 tsp salt\n1 tsp sugar\n2 tbsp oil", "Method", "Mix yeast with warm water and sugar. Combine flour and salt. Add yeast mixture and oil. Knead well. Let rise for 1 hour. Shape and bake at 425°F for 25-30 minutes until golden.", R.drawable.khobz));
+
+            recipes1.add(new Recipes("Banana Bread", "2 cups flour\n1 cup warm water\n1 tsp yeast\n1 tsp salt\n1 tbsp olive oil\nSesame seeds", "Method", "Mix yeast with warm water. Combine flour and salt. Add yeast mixture and oil. Knead until smooth. Let rise for 45 minutes. Shape into flat rounds, sprinkle with sesame seeds. Bake at 450°F for 15-20 minutes.", R.drawable.matlou3));
+            recipes1.add(new Recipes("Focaccia", "3 cups semolina flour\n1 cup warm water\n1 tsp salt\n1 tsp sugar\n2 tsp active dry yeast\n2 tbsp olive oil", "Method", "Mix yeast with warm water and sugar. Let foam for 5 minutes. Mix flour and salt in a bowl. Add yeast mixture and oil. Knead until smooth. Let rise for 1 hour. Shape into rounds and bake at 400°F for 20-25 minutes.", R.drawable.kesra));
+
+            recipes1.add(new Recipes("Whole Wheat Bread", "4 cups flour\n1 1/2 cups warm water\n2 tsp yeast\n1 tsp salt\n1 tsp sugar\n2 tbsp oil", "Method", "Mix yeast with warm water and sugar. Combine flour and salt. Add yeast mixture and oil. Knead well. Let rise for 1 hour. Shape and bake at 425°F for 25-30 minutes until golden.", R.drawable.khobz));
+
 
         } else if (category.equals("Dessert")) {
             // Algerian desserts only
@@ -66,10 +81,10 @@ public class MainActivity extends AppCompatActivity {
             recipes1.add(new Recipes("Samsa", "1 cup almonds, 1 cup sugar...", "Method", "Prepare filling...", R.drawable.samsa));
             recipes1.add(new Recipes("Kalb el louz", "2 cups semolina, 1 cup sugar...", "Method", "Prepare syrup and dough...", R.drawable.kalbelouz));
             recipes1.add(new Recipes("Griwach", "2 cups flour, 1 egg, orange blossom water...", "Method", "Mix ingredients, form shapes, fry, then dip in honey...", R.drawable.griwech));
-            recipes1.add(new Recipes("Makroud", "2 cups semolina, dates...", "Method", "Mix semolina...", R.drawable.makrout));
-            recipes1.add(new Recipes("Samsa", "1 cup almonds, 1 cup sugar...", "Method", "Prepare filling...", R.drawable.samsa));
-            recipes1.add(new Recipes("Kalb el louz", "2 cups semolina, 1 cup sugar...", "Method", "Prepare syrup and dough...", R.drawable.kalbelouz));
-            recipes1.add(new Recipes("Griwach", "2 cups flour, 1 egg, orange blossom water...", "Method", "Mix ingredients, form shapes, fry, then dip in honey...", R.drawable.griwech));
+            recipes1.add(new Recipes("Chocolate Lava Cake", "2 cups semolina, dates...", "Method", "Mix semolina...", R.drawable.makrout));
+            recipes1.add(new Recipes("Tiramisu", "1 cup almonds, 1 cup sugar...", "Method", "Prepare filling...", R.drawable.samsa));
+            recipes1.add(new Recipes("Strawberry Cheesecake", "2 cups semolina, 1 cup sugar...", "Method", "Prepare syrup and dough...", R.drawable.kalbelouz));
+            recipes1.add(new Recipes("Creme Brulee", "2 cups flour, 1 egg, orange blossom water...", "Method", "Mix ingredients, form shapes, fry, then dip in honey...", R.drawable.griwech));
 
         }
 
