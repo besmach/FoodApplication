@@ -1,6 +1,5 @@
 package com.example.myapplication;
 
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -64,5 +63,3 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.MyView
         }
     }
 }
-
-
