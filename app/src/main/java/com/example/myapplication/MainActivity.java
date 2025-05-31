@@ -26,15 +26,84 @@ public class MainActivity extends AppCompatActivity {
         // Show recipes based on selected category
         if (category == null || category.equals("Breakfast")) {
             // Breakfast recipes
-            recipes1.add(new Recipes("Pancake", "1 1/4 cups milk\n1 egg\n3 tablespoons butter melted\n1 1/2 cups all-purpose flour\n3 1/2 teaspoons baking powder\n1 teaspoon salt\n1 tablespoon white sugar", "Method", "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth. Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.", R.drawable.pancakes));
 
-            recipes1.add(new Recipes("Donut", "1 c. whole milk\n1/4 c. plus 1 tsp. granulated sugar, divided\n1 packet (or 2 1/4 tsp.) active dry yeast\n4 c. all-purpose flour, plus more if needed\n1/2 tsp. kosher salt\n6 tbsp. melted butter\n2 large eggs\n1/2 tsp. pure vanilla extract\nCanola or vegetable oil, for frying", "Method", "Grease a large bowl with cooking spray and set aside. In a small, microwave-safe bowl or glass measuring cup, add milk. Microwave until lukewarm, 40 seconds. Add a teaspoon of sugar and stir to dissolve, then sprinkle over yeast and let sit until frothy, about 8 minutes.\nMake glaze: In a large bowl, whisk together milk, powdered sugar, and vanilla until smooth. Set aside.\nLine a large baking sheet with paper towels. In a large dutch oven over medium heat, heat 2'' oil to 350°. Cook doughnuts, in batches, until deeply golden on both sides, about 1 minute per side. Holes will cook even faster!\nTransfer doughnuts to paper towel-lined baking sheet to drain and cool slightly. Dip into glaze, then place onto a cooling rack (or eat immediately!)", R.drawable.donut1));
+            recipes1.add(new Recipes("Pancakes",
+                    "1 cup flour\n2 tbsp sugar\n1 egg\n1 cup milk\n1 tsp baking powder\n1 tbsp melted butter",
+                    "Method",
+                    "Mix dry ingredients, then add egg, milk, and butter.\nStir until smooth.\nCook on a hot non-stick pan until golden on both sides.",
+                    R.drawable.pancakes));
+
+            recipes1.add(new Recipes("Omelette",
+                    "2 eggs\n1 tbsp milk\nSalt and pepper\nChopped onions, tomatoes, herbs",
+                    "Method",
+                    "Beat eggs with milk, salt, and pepper.\nAdd veggies.\nPour into a heated non-stick pan and cook until set.",
+                    R.drawable.omelette));
+
+            recipes1.add(new Recipes("Avocado Toast",
+                    "2 slices bread\n1 ripe avocado\nSalt, pepper, lemon juice\nChili flakes (optional)",
+                    "Method",
+                    "Toast bread slices.\nMash avocado with lemon juice, salt, and pepper.\nSpread on toast and top with chili flakes.",
+                    R.drawable.avocado_toast));
+
+            recipes1.add(new Recipes("French Toast",
+                    "2 slices bread\n1 egg\n1/4 cup milk\nCinnamon, vanilla (optional)\nButter for cooking",
+                    "Method",
+                    "Whisk egg, milk, cinnamon, and vanilla.\nDip bread and cook in butter on both sides until golden.",
+                    R.drawable.french_toast));
+
+            recipes1.add(new Recipes("Smoothie Bowl",
+                    "1 banana\n1/2 cup berries\n1/2 cup yogurt or milk\nToppings: granola, fruit, seeds",
+                    "Method",
+                    "Blend banana, berries, and yogurt until smooth.\nPour into a bowl and add your favorite toppings.",
+                    R.drawable.smoothie_bowl));
+
+            recipes1.add(new Recipes("Ful Medames",
+                    "1 can fava beans\n1 clove garlic\nOlive oil, lemon juice\nSalt, cumin\nChopped parsley, boiled egg (optional)",
+                    "Method",
+                    "Mash beans with garlic, lemon juice, and spices.\nDrizzle with olive oil and serve with bread.",
+                    R.drawable.ful_medames));
+
+            recipes1.add(new Recipes("Msemmen (Algerian Pancake)",
+                    "2 cups flour\n1/2 tsp salt\nWater to mix\nOil and semolina for folding",
+                    "Method",
+                    "Knead flour and water into a soft dough.\nRoll and fold with oil and semolina.\nCook on a hot pan until golden.",
+                    R.drawable.msemmen));
+
+            recipes1.add(new Recipes("Croissant Breakfast",
+                    "2 eggs\n1 tomato\n1/2 onion\n1 clove garlic\nPaprika, cumin\nSalt, pepper",
+                    "Method",
+                    "Cook onion and garlic, add chopped tomato and spices.\nSimmer, then crack eggs on top and cook until whites set.",
+                    R.drawable.shakshuka));
 
         } else if (category.equals("Indian")) {
             // Indian recipes
             recipes1.add(new Recipes("Dosa", "3 cups rice\n1 cup urad daal (split, skinless black gram)\n3/4 teaspoon fenugreek seeds\nSalt (to taste)\nVegetable / canola / sunflower cooking oil", "Method", "Wash the rice and urad daal well. Add the fenugreek seeds to the mix and fill enough water in the rice-daal bowl to cover them about 2-inch deep. Soak overnight.\nPut some cooking oil in a small bowl and keep ready. You will also need a bowl of ice cold water, a large, flat nonstick pan, 2 sheets of paper towel, a ladle, a spatula, and a basting brush.\nWhen the upper surface begins to look cooked (it will no longer look soft or runny), flip the dosa. By this time, ideally, the surface that was underneath should be light golden in color. Cook for 1 minute after flipping.\nThe dosa is almost done. Fold it in half and allow to cook for 30 seconds more.", R.drawable.dosa1));
 
             recipes1.add(new Recipes("Chicken Roll", "200 gm chopped into cubes chicken\n1 medium chopped tomato\n1/2 pinch red chilli powder\n2 tablespoon vegetable oil\n1/2 cut into strips cucumber\n1/2 tablespoon chopped coriander leaves\n1 large thinly sliced onion\n2 medium chopped green chilli\n2 pinches garam masala powder\n1 lemon wedges\n1 teaspoon tomato ketchup\n1 tablespoon green chilli sauce", "Method", "Chicken Roll is a delectable North Indian recipe made using all purpose flour, stir-fried chicken, yoghurt and a variety of vegetables rolled into paranthas. On days you do not want to prepare an elaborate meal, this delectable dish can be a saviour. Rolls are quite popular across India and they are often a favourite evening snack. Egg Roll, Kathi Kebab Roll, Mutton Roll, Paneer Roll, Potato Roll and even Fish Roll are among its many variations. This easy roll recipe is made using chicken and has the unforgettable aroma of Indian spices. You can also utilize your leftover parathas and chapatis in making this recipe. If you do not like to use all-purpose flour or maida, you can make it with whole wheat flour too. In fact, it can be made even with leftover chicken. All you have to ensure is that you use the right amount of spices so that the flavour is not lost. Easy to pack and carry, you can also take it to office or prepare it for picnics and day trips. A must try roll recipe for all chicken lovers!", R.drawable.chicken_roll));
+            recipes1.add(new Recipes("Butter Chicken",
+                    "500g boneless chicken\n1 cup yogurt\n2 tbsp butter\n1 cup tomato puree\n1/2 cup cream\nSpices (turmeric, chili, garam masala)",
+                    "Method",
+                    "Marinate chicken in yogurt and spices for 1 hour.\nCook chicken until half done.\nIn another pan, melt butter, add tomato puree and cream.\nAdd chicken to the gravy and simmer until done.",
+                    R.drawable.butter_chicken));
+
+            recipes1.add(new Recipes("Biryani",
+                    "2 cups basmati rice\n500g chicken or mutton\n1 cup yogurt\n2 onions\nWhole spices (bay leaf, cloves, cardamom)\nSaffron (optional)",
+                    "Method",
+                    "Marinate meat with yogurt and spices.\nCook rice until 70% done.\nLayer meat and rice, sprinkle saffron and fried onions.\nCook on low flame (dum) for 20–30 minutes.",
+                    R.drawable.biryani));
+
+            recipes1.add(new Recipes("Chole Bhature",
+                    "2 cups chickpeas\n2 onions\n2 tomatoes\nSpices (cumin, garam masala, chili powder)\nFor Bhature: Flour, yogurt, baking powder",
+                    "Method",
+                    "Soak and cook chickpeas, prepare gravy with onions, tomatoes, and spices.\nKnead dough for bhature and rest 2 hours.\nRoll and deep fry until puffed and golden.",
+                    R.drawable.chole_bhature));
+
+            recipes1.add(new Recipes("Paneer Tikka",
+                    "250g paneer cubes\n1 cup yogurt\nSpices (turmeric, chili, cumin)\nBell peppers and onions",
+                    "Method",
+                    "Marinate paneer and veggies in yogurt and spices for 1 hour.\nGrill or bake on skewers until golden.\nServe with green chutney.",
+                    R.drawable.paneer_tikka));
+
 
         } else if (category.equals("Soups & Stews")) {
             // Soups & Stews recipes
@@ -42,7 +111,56 @@ public class MainActivity extends AppCompatActivity {
 
             recipes1.add(new Recipes("Hrira", "1/2 cup lentils\n1/4 cup rice\n1 onion, chopped\n2 tomatoes, chopped\n1/4 cup chickpeas\n1 tsp cinnamon\n1 tsp ginger\nSalt & pepper\nFresh herbs", "Method", "Traditional Moroccan soup perfect for breaking fast. Soak lentils and chickpeas overnight. Sauté onions, add tomatoes and spices. Add lentils, chickpeas and water. Simmer until tender. Add rice and cook until soft. Season and garnish with herbs.", R.drawable.hrira));
 
-            recipes1.add(new Recipes("Chirba Beida", "6 eggs\n1 onion, chopped\n2 tomatoes, chopped\n1 tsp turmeric\n1 tsp paprika\nSalt & pepper\nFresh parsley\nOlive oil", "Method", "Heat oil in pan, sauté onions until soft. Add tomatoes and spices, cook until thick. Beat eggs and pour into pan. Scramble gently until eggs are cooked. Season with salt, pepper and fresh parsley.", R.drawable.beida));
+            recipes1.add(new Recipes("Chorba Beida", "6 eggs\n1 onion, chopped\n2 tomatoes, chopped\n1 tsp turmeric\n1 tsp paprika\nSalt & pepper\nFresh parsley\nOlive oil", "Method", "Heat oil in pan, sauté onions until soft. Add tomatoes and spices, cook until thick. Beat eggs and pour into pan. Scramble gently until eggs are cooked. Season with salt, pepper and fresh parsley.", R.drawable.beida));
+
+
+            recipes1.add(new Recipes("Tomato Basil Soup",
+                    "5 ripe tomatoes\n1 onion\n2 cloves garlic\nFresh basil\n1 cup broth\nSalt, pepper, olive oil",
+                    "Method",
+                    "Sauté onion and garlic.\nAdd tomatoes and broth.\nSimmer, blend until smooth.\nAdd basil and season to taste.",
+                    R.drawable.tomato_soup));
+
+            recipes1.add(new Recipes("Carrot Ginger Soup",
+                    "4 carrots\n1 onion\n1 piece fresh ginger\n2 cups vegetable broth\nOlive oil, salt, pepper",
+                    "Method",
+                    "Sauté onion and ginger.\nAdd carrots and broth.\nSimmer until soft.\nBlend and season to taste.",
+                    R.drawable.carrot_ginger));
+
+            recipes1.add(new Recipes("Lentil Soup",
+                    "1 cup red lentils\n1 onion\n2 carrots\n2 garlic cloves\n1 tsp cumin\n4 cups water or broth",
+                    "Method",
+                    "Sauté onion, garlic, carrots.\nAdd lentils, cumin, and broth.\nCook until lentils are soft, blend or serve as is.",
+                    R.drawable.lentil_soup));
+
+            recipes1.add(new Recipes("Chicken Noodle Soup",
+                    "200g chicken breast\n1 onion\n1 carrot\n1 celery stick\n1/2 cup noodles\n2 cups broth",
+                    "Method",
+                    "Cook chicken, remove and shred.\nSauté veggies, add broth and noodles.\nAdd chicken and simmer until noodles are done.",
+                    R.drawable.chicken_noodle));
+
+            recipes1.add(new Recipes("Pumpkin Soup",
+                    "2 cups pumpkin (chopped)\n1 onion\n2 garlic cloves\n1 cup milk or cream\nSpices: nutmeg, pepper, salt",
+                    "Method",
+                    "Sauté onion and garlic.\nAdd pumpkin and water, boil until soft.\nBlend and add cream and spices.",
+                    R.drawable.pumpkin_soup));
+
+            recipes1.add(new Recipes("Vegetable Soup",
+                    "1 potato\n1 carrot\n1 zucchini\n1 tomato\n1/2 onion\nSalt, pepper, herbs",
+                    "Method",
+                    "Chop all veggies.\nBoil in water with herbs and seasoning until tender.\nServe hot.",
+                    R.drawable.vegetable_soup));
+
+            recipes1.add(new Recipes("Onion Soup",
+                    "3 large onions\n1 tbsp butter\n2 cups beef broth\nSalt, pepper, thyme\nBread and cheese for topping",
+                    "Method",
+                    "Caramelize onions in butter.\nAdd broth and season.\nTop with bread and cheese, broil until golden.",
+                    R.drawable.onion_soup));
+
+            recipes1.add(new Recipes("Minestrone",
+                    "1/2 cup pasta\n1 carrot\n1 zucchini\n1 tomato\n1/4 cup beans\nGarlic, onion, broth, herbs",
+                    "Method",
+                    "Sauté garlic, onion, and veggies.\nAdd broth, beans, and pasta.\nSimmer until pasta is cooked.",
+                    R.drawable.minestrone));
 
         } else if (category.equals("Traditional")) {  // Fixed case sensitivity
             // Traditional recipes
